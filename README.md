@@ -36,10 +36,21 @@ resources/views/contact.blade.php にフォーム画面を実装しました。
 ### 6.CSS ファイルの作成
 public/css/style.css にスタイルを記述しました。
 
-## 使用技術
+## 🛠 使用技術（この例で使われている環境）
+- PHP 8.0
+- Laravel 10.0
+- MySQL 8.0
+
+## 🗂 ER図（このプロジェクトのデータ構造）
+このアプリケーションのデータ構造を視覚的に把握するためのER図を以下に掲載予定です。
+※現在は未作成のため、後ほど作成・追加予定です。
+
+[ER図の説明文（画像のURLまたは相対パス）]
+
+## 🌐 ローカル環境での確認用URL
+- アプリケーション: [http://localhost/](http://localhost/)
+- phpMyAdmin: [http://localhost:8080/](http://localhost:8080/)
 
 ## 動作確認
-
-## アクセスURL
 
 ## ライセンス
