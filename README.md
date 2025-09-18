@@ -9,31 +9,35 @@ LaravelとDockerを使用して、ローカル環境で動作するフォーム�
 ## 🛠️ 環境構築手順
 
 ### 1. リポジトリの設定
-GitHubでリポジトリを作成し、テンプレートをクローンしてディレクトリ名を変更しました。
+このプロジェクトのベースとなるコードを取得するために、GitHubからリポジトリをクローンします。
 
 ### 2. Docker の設定
-以下のコマンドでDocker環境を構築しました：
+ローカル環境に必要なサービス（PHP, MySQLなど）をDockerで構築・起動します。
+以下のコマンドでDocker環境を構築・起動しました：
 ```bash
 docker-compose up -d --build
 ```
 
 ### 3. Laravel のパッケージのインストール
+Laravelの動作に必要な依存パッケージをインストールします。
 ```bash
 docker-compose exec app bash
 composer install
 ```
 
 ### 4. .env ファイルの作成
-.env ファイルを作成し、アプリケーションキーを生成することでLaravelが起動可能になります。
+Laravelの環境設定を行うために、.envファイルを作成し、アプリケーションキーを生成します。
 ```bash
 cp .env.example .env
 php artisan key:generate
 ```
 
 ### 5.view ファイルの作成
+ユーザーが入力するお問い合わせフォームの画面を作成します。
 resources/views/contact.blade.php にフォーム画面を実装しました。
 
 ### 6.CSS ファイルの作成
+フォーム画面のデザインを整えるためのスタイルを記述します。
 public/css/style.css にスタイルを記述しました。
 
 ## 🛠 使用技術（この例で使われている環境）
