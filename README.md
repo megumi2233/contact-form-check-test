@@ -35,10 +35,12 @@ php artisan key:generate
 
 ### 5.view ファイルの作成
 ユーザーが入力するお問い合わせフォームの画面を作成します。
+
 resources/views/contact.blade.php にフォーム画面を実装しました。
 
 ### 6.CSS ファイルの作成
 フォーム画面のデザインを整えるためのスタイルを記述します。
+
 public/css/style.css にスタイルを記述しました。
 
 ## 🛠 使用技術（この例で使われている環境）
