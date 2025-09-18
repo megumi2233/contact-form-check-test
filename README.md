@@ -15,17 +15,20 @@ GitHubでリポジトリを作成し、テンプレートをクローンして�
 以下のコマンドでDocker環境を構築しました：
 ```bash
 docker-compose up -d --build
+```
 
 ### 3. Laravel のパッケージのインストール
 ```bash
 docker-compose exec app bash
 composer install
+```
 
 ### 4. .env ファイルの作成
 .env ファイルを作成し、アプリケーションキーを生成することでLaravelが起動可能になります。
 ```bash
 cp .env.example .env
 php artisan key:generate
+```
 
 ### 5.view ファイルの作成
 resources/views/contact.blade.php にフォーム画面を実装しました。
