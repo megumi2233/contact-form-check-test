@@ -13,6 +13,7 @@ LaravelとDockerを使用して、ローカル環境で動作するフォーム�
 
 ### 2. Docker の設定
 ローカル環境に必要なサービス（PHP, MySQLなど）をDockerで構築・起動します。
+
 以下のコマンドでDocker環境を構築・起動しました：
 ```bash
 docker-compose up -d --build
