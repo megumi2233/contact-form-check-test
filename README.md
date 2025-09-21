@@ -55,7 +55,7 @@ public/css/style.css にスタイルを記述しました。
 各テーブルは右形式（表形式）で構成されており、主キー（PK）・外部キー（FK）の役割が明示されています。  
 また、`gender` カラムの値（1: 男性、2: 女性、3: その他）については図内に注釈を記載しています。
 
-![ER図](assets/er_diagram.png)
+![ER図](assets/contact-form-er.png)
 
 ※ 補足：
 - 図は draw.io にて作成し、PNG形式で保存しています。
