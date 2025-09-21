@@ -57,7 +57,11 @@ public/css/style.css にスタイルを記述しました。
 
 ![ER図](assets/er_diagram.png)
 
-※ 図は draw.io にて作成し、PNG形式で保存しています。
+※ 補足：
+- 図は draw.io にて作成し、PNG形式で保存しています。
+- 元データは `src/contact-form-er.drawio` にて編集可能です。
+- 編集には [draw.io（diagrams.net）](https://app.diagrams.net/) を使用してください。  
+　ローカルアプリまたはブラウザ版のどちらでも編集可能です。
 
 ## 🌐 ローカル環境での確認用URL
 - アプリケーション: [http://localhost/](http://localhost/)
