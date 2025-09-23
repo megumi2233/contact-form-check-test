@@ -33,15 +33,25 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-### 5.view ファイルの作成
-ユーザーが入力するお問い合わせフォームの画面を作成します。
+### 5. View ファイルの作成
+ユーザーが入力するお問い合わせフォーム画面や関連画面を作成しました。  
+主なファイル:
+- `resources/views/inquiry/form.blade.php` （お問い合わせフォーム）
+- `resources/views/inquiry/confirm.blade.php` （確認画面）
+- `resources/views/inquiry/thanks.blade.php` （送信完了画面）
+- `resources/views/layouts/partials/header.blade.php` / `footer.blade.php` （共通レイアウト）
+- `resources/views/auth/login.blade.php` / `register.blade.php` （認証関連）
 
-resources/views/contact.blade.php にフォーム画面を実装しました。
-
-### 6.CSS ファイルの作成
-フォーム画面のデザインを整えるためのスタイルを記述します。
-
-public/css/style.css にスタイルを記述しました。
+### 6. CSS ファイルの作成
+フォームや各画面のデザインを整えるためのスタイルを作成しました。  
+主なファイル:
+- `public/css/form.css` （お問い合わせフォーム用）
+- `public/css/confirm.css` （確認画面用）
+- `public/css/thanks.css` （完了画面用）
+- `public/css/login.css` / `register.css` （認証画面用）
+- `public/css/admin.css` （管理画面用）
+- `public/css/sanitize.css` （リセット用）
+- `public/css/style.css` （共通スタイル）
 
 ## 🛠 使用技術（この例で使われている環境）
 - PHP 8.0
