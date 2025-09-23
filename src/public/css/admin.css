@@ -1,0 +1,121 @@
+.admin__title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.admin__search-form {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.admin__search-form input,
+.admin__search-form select {
+    padding: 0.6em;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.admin__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+
+.admin__table th,
+.admin__table td {
+    border: 1px solid #ccc;
+    padding: 0.8em;
+    text-align: left;
+}
+
+.admin__pagination {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.admin__pagination .page {
+    display: inline-block;
+    margin: 0 0.4em;
+    padding: 0.4em 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.admin__modal-toggle:checked~.admin__modal {
+    display: flex;
+}
+
+.admin__modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+
+.admin__modal-content {
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+}
+
+.admin__modal-close {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #999;
+}
+
+.admin__modal-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.6em 1.2em;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn--search {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn--reset {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn--detail {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn--close {
+    background-color: #dc3545;
+    color: white;
+    margin-top: 1em;
+}

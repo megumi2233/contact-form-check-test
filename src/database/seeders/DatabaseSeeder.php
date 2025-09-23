@@ -13,6 +13,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        $this->call(CategorySeeder::class); // 先にカテゴリを投入
+        \App\Models\Contact::factory(35)->create(); // 35件のダミーデータ
     }
 }

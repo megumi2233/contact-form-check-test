@@ -1,0 +1,143 @@
+/* ====== Reset & Base ====== */
+body {
+    margin: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* ====== Header ====== */
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header__nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.header__nav a {
+    color: #555;
+}
+
+/* ====== Footer ====== */
+.footer {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* ====== Main ====== */
+.main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+/* ====== Form ====== */
+.form__group {
+    margin-bottom: 1rem;
+}
+
+.form__group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.form__group input,
+.form__group textarea,
+.form__group select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.form__error {
+    color: #d00;
+    background-color: #ffecec;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.form__actions {
+    text-align: right;
+}
+
+/* ====== Buttons ====== */
+button,
+.btn {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn--back {
+    background-color: #aaa;
+}
+
+.btn--submit {
+    background-color: #007bff;
+}
+
+.btn--home {
+    background-color: #28a745;
+}
+
+/* ====== Confirmation & Thanks ====== */
+.confirm__group {
+    margin-bottom: 1rem;
+}
+
+.confirm__label {
+    font-weight: bold;
+}
+
+.confirm__value {
+    margin-top: 0.3rem;
+}
+
+.thanks__message {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.thanks__button {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+}
