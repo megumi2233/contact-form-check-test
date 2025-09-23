@@ -47,6 +47,7 @@ public/css/style.css にスタイルを記述しました。
 - PHP 8.0
 - Laravel 10.0
 - MySQL 8.0
+- Docker (nginx, php, mysql, phpmyadmin)
 
 ## 🗂 ER図（このプロジェクトのデータ構造）
 このアプリケーションのデータ構造を視覚的に把握するため、以下にER図を掲載しています。
@@ -67,6 +68,25 @@ public/css/style.css にスタイルを記述しました。
 - アプリケーション: [http://localhost/](http://localhost/)
 - phpMyAdmin: [http://localhost:8080/](http://localhost:8080/)
 
+## 実装状況
+- [x] Docker 環境構築 (nginx, php, mysql, phpmyadmin)
+- [x] Laravel プロジェクト作成
+- [x] Blade によるフォーム作成
+- [x] バリデーション実装
+- [ ] Seeder 実行時のエラー解消（未完了）
+
+## 既知の問題
+- `php artisan migrate:fresh --seed` 実行時に **migrations テーブル作成でエラー**が発生  
+- データベース自体は `utf8mb4` 設定済みだが、テーブル作成時にエンジン・照合順序でエラーが出る  
+- 時間の都合で完全解決には至らず、現状のまま提出  
+
+## 提出にあたって
+- main ブランチにコミット済み  
+- `.env` や `vendor/` ディレクトリはセキュリティ・再現性の観点からコミットしていません  
+
 ## 動作確認
+- アプリケーション: http://localhost/  
+- phpMyAdmin: http://localhost:8080/  
 
 ## ライセンス
+このリポジトリは学習・確認テスト用に作成したものであり、商用利用は想定していません。
