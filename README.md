@@ -64,16 +64,31 @@ php artisan key:generate
 
 この図では、`contacts` テーブルが `categories` テーブルに属する「1対多」の関係を示しています。  
 各テーブルは右形式（表形式）で構成されており、主キー（PK）・外部キー（FK）の役割が明示されています。  
-また、`gender` カラムの値（1: 男性、2: 女性、3: その他）については図内に注釈を記載しています。
+また、`gender` カラムは仕様書に従い **tinyint 型（1: 男性、2: 女性）** として保存されます。
 
 ![ER図](assets/contact-form-er.png)
 
 ※ 補足：
 - 図は draw.io にて作成し、PNG形式で保存しています。
-- 元データは `src/contact-form-er.drawio` にて編集可能です。
+- 元データは `src/contact-form-er-v2.drawio` にて編集可能です。
 - 編集には [draw.io（diagrams.net）](https://app.diagrams.net/) を使用してください。  
 　ローカルアプリまたはブラウザ版のどちらでも編集可能です。
 
+### データ仕様（要点）
+
+- contacts.gender: tinyint 型（1=男性, 2=女性）
+- Factory では gender を数値で生成（randomElement([1, 2])）
+
+### ダミーデータの作成
+
+- contacts テーブル: Factory を使用して 35 件のダミーデータを作成
+  - gender は仕様書に従い **1=男性, 2=女性** のいずれかをランダムに生成
+- categories テーブル: Seeder を使用して以下 4 件を作成
+  1. 商品のお届けについて
+  2. 商品の交換について
+  3. 商品トラブル
+  4. ショップへのお問い合わせ
+ 
 ## 🌐 ローカル環境での確認用URL
 - アプリケーション: [http://localhost/](http://localhost/)
 - phpMyAdmin: [http://localhost:8080/](http://localhost:8080/)
