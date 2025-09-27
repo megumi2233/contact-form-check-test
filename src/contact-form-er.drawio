@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="SYdNa0us9zYkgSYLafI0" name="ページ1">
-        <mxGraphModel dx="786" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+        <mxGraphModel dx="716" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -39,7 +39,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="37" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;1: 男性&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;2: 女性&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;3: その他&lt;/font&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                <mxCell id="37" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;1: 男性&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;2: 女性&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
                     <mxGeometry x="320" y="440" width="150" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="38" value="&lt;b&gt;&lt;font style=&quot;color: rgb(153, 255, 255);&quot;&gt;has_many&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(153, 255, 255);&quot;&gt;contacts&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#99FFFF;" vertex="1" parent="1">
